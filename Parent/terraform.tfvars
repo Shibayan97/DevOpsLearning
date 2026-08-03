@@ -4,7 +4,15 @@ rgs = {
     location = "centralindia"
   }
 }
-
+stgs = {
+  stg1 = {
+    stg_name                 = "stg-dushynat"
+    rg_name                  = "rg-dushyant"
+    location                 = "centralindia"
+    account_tier             = "Standard"
+    account_replication_type = "GRS"
+  }
+}
 vnets = {
   vnet1 = {
     vnet_name     = "vnet-Jio"
