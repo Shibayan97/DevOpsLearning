@@ -10,8 +10,3 @@ data "azurerm_public_ip" "PUBLICIP" {
   name                = each.value.pip_name
   resource_group_name = each.value.rg_name
 }
-
-data "azurerm_network_security_group" "example" {
-  name                = "example"
-  resource_group_name = azurerm_resource_group.example.name
-}
